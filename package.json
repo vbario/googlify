@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack ./app.js bundle.js && http-server .",
-    "build": "webpack ./app.js bundle.js"
+    "build": "webpack ./app.js bundle.js",
+    "start": "http-server ."
   },
   "author": "",
   "license": "ISC",
